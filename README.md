@@ -20,7 +20,7 @@ This project allows users to take hands-free photos using **gesture detection** 
 ### 1. Install Dependencies
 
 - Make sure you have Python 3 installed. Then run:
--   pip install opencv-python mediapipe
+    - pip install opencv-python mediapipe
 
 ### 2. Run the App
 
