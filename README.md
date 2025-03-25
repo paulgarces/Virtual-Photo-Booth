@@ -2,6 +2,8 @@
 
 This project allows users to take hands-free photos using **gesture detection** via a webcam. When all five fingers are detected as raised, a 3-second countdown begins, and a photo is captured automatically. Users can then name and save their photos locally.
 
+All the code and logic for the virtual photo booth is contained in the `virtual_photo.py` file. This is the main script you’ll run to launch the application.
+
 ---
 
 ## 🚀 How It Works
@@ -20,10 +22,11 @@ This project allows users to take hands-free photos using **gesture detection** 
 ### 1. Install Dependencies
 
 - Make sure you have Python 3 installed. Then run:
-    - pip install opencv-python mediapipe
+    - `pip install opencv-python mediapipe`
 
 ### 2. Run the App
 
+```bash
 python virtual_photo.py
 
 ### 3. Use the App
@@ -46,3 +49,12 @@ All photos are saved in the Photos/ folder located in the same directory as the 
 You can:
 - Access them from Finder (Mac) or File Explorer (Windows).
 - Open, edit, or download them like regular image files.
+
+---
+
+## 🔐 Privacy
+
+**Each person who uses this script on their own computer will only be able to see their own photos.**
+- The Photos/ folder is created locally on their machine.
+- Photos are not uploaded or shared.
+- The .gitignore ensures that no personal photos are tracked or pushed to GitHub.
