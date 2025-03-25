@@ -26,8 +26,7 @@ All the code and logic for the virtual photo booth is contained in the `virtual_
 
 ### 2. Run the App
 
-```bash
-python virtual_photo.py
+- `python virtual_photo.py`
 
 ### 3. Use the App
 
